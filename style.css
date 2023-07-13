@@ -1,0 +1,76 @@
+:root{
+    --background: rgb(255, 237, 254);
+    --accent: rgb(94, 0, 89);
+}
+
+body{
+    height: max-content;
+    overflow: hidden;
+    font-family: 'Bodoni Moda', serif;
+    background-color: var(--background);
+    letter-spacing: rem;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    overflow: hidden;
+    color: var(--accent);
+}
+
+.picture{
+    width: 10rem;
+    aspect-ratio: 1/1;
+    border-radius: 200rem;
+}
+
+.name{
+    font-size: 7rem;
+    /* background-color: black; */
+    line-height: 9rem;
+    font-weight: 500;
+}
+
+.age{
+    font-size: 2rem;
+}
+
+.email{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.location{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.btn-generate{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    border: 0px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    margin-top: 2rem;
+    background-color: var(--accent);
+    color: var(--background);
+    cursor: pointer;
+}
+
+.btn-generate:hover{
+    filter: brightness(120%);
+}
+
+.btn-generate:active{
+    transform: translate(0px, 5px);
+    filter: brightness(70%);
+    /* background-color: aqua; */
+}
